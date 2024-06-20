@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Lobster&display=swap');
+
+* {
+    font-family: 'Livvic', sans-serif;
+    user-select: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+ body {
+     padding: 0;
+     margin: 0;
+     font-family: 'Segoe UI', 'sans-serif';
+     font-weight: 500;
+ }
+
+ h1 {
+     font-size: 2rem;
+     font-weight: 700;
+     margin-bottom: 20px;
+ }
+
+ .split-screen {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .left,
+ .usignup-left {
+     height: 200px;
+ }
+
+ .left,
+ .right,
+ .usignup-left {
+     display: flex;
+     justify-content: center;
+ }
+
+ .left {
+     background: linear-gradient(rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.283)),
+         url("../images/loginbg.png");
+     height: 100vh;
+     background-size: cover;
+     animation: pop-in 1s ease-in-out forwards;
+ }
+
+ .a-left {
+     background: linear-gradient(rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.283)),
+         url("../images/admin.png");
+     height: 100vh;
+     background-size: cover;
+     width: 50%;
+ }
+
+ .left .copy {
+     color: black;
+     text-align: center;
+ }
+
+ .right .copy {
+     color: black;
+     text-align: center;
+ }
+
+ .input-container {
+     position: relative;
+     margin-top: 25px;
+
+ }
+
+ .input-container>label {
+     position: absolute;
+     left: 10px;
+     top: 0;
+     transition: 0.8s;
+ }
+
+ .right form {
+     width: 400px;
+     padding: 50px;
+     border: 2px solid;
+     height: 548px;
+     border-radius: 15px;
+
+ }
+
+ .right {
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 10px 10px 26px black;
+     border-top-left-radius: 25px;
+     border-bottom-left-radius: 25px;
+     animation: pop-in 1s ease-in-out forwards;
+
+ }
+
+ form input[type="text"],
+ form input[type="password"] {
+     width: 100%;
+     box-sizing: border-box;
+     border-radius: 8px;
+     border: 1px solid #FFD200;
+     outline: none;
+     padding: 10px;
+     margin-bottom: 1.25rem;
+     font-size: 0.90rem
+ }
+
+ #signinbtn {
+     display: block;
+     font-size: 24px;
+     width: 100%;
+     color: white;
+     background-color: #FFD200;
+     border-radius: 15px;
+ }
+
+ .my-icon {
+     margin-top: 1rem;
+     margin-bottom: 1.5rem;
+ }
+
+ @media screen and (min-width:900px) {
+     .split-screen {
+         flex-direction: row;
+         height: 100vh;
+     }
+
+     .left,
+     .right {
+         display: flex;
+         width: 50%;
+         height: auto;
+     }
+ }
+
+ @keyframes pop-in {
+     0% {
+         opacity: 0;
+         transform: scale(0.5);
+     }
+
+     100% {
+         opacity: 1;
+         transform: scale(1);
+     }
+ }
+
+
+ @media only screen and (max-width:899px) {
+     .left {
+         height: 0px;
+         width: 0px;
+     }
+
+     .right {
+         height: 100%;
+     }
+ }
+
+ .usignup-left {
+     background: linear-gradient(rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.283)),
+         url("../images/reg.png");
+     height: 100vh;
+     background-size: cover;
+     width: 50%;
+ }
+
+ .input-container input:valid~label,
+ .input-container input:focus~label {
+     transform: translateY(-24px);
+     background-color: white;
+ }
+ #signinbtn:hover{
+    cursor: pointer;
+    background-color: orange;
+ }

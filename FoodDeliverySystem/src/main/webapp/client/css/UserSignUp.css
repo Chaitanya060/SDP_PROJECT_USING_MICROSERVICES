@@ -1,0 +1,67 @@
+.signup-field-container{
+    margin: 10px;
+    width:50%;
+    position: relative;
+   
+}
+.signup-field-container>label {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transition: 0.4s;
+}
+.signup-field-container input:valid~label,
+.signup-field-container input:focus~label {
+    transform: translateY(-24px);
+    background-color: white;
+}
+.uright {
+    min-height: 126vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 26px black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    animation: pop-in 1s ease-in-out forwards;
+
+}
+ .uright form {
+     height: 100%;
+     padding: 49px;
+     border:1px solid black;
+     border-radius: 15px;
+
+ }
+#signupbtn {
+    display: block;
+    font-size: 24px;
+    width: 50%;
+    color: white;
+    background-color: #376ac3;
+    border-radius: 15px;
+}
+@media only screen and (max-width:899px) {
+    .usignup-left {
+        height: 0px;
+        width: 0px;
+    }
+
+    .uright {
+        height: 100%;
+    }
+}
+ @media screen and (min-width:900px) {
+     .split-screen {
+         flex-direction: row;
+         height: 100vh;
+     }
+
+     .usignup-left,
+     .uright {
+         display: flex;
+         width: 50%;
+         height: auto;
+     }
+ }

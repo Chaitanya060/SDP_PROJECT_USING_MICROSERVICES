@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&family=Lobster&display=swap');
+
+* {
+    font-family: 'Livvic', sans-serif;
+    user-select: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+.my-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-section{
+    /* border:1px solid black; */
+    padding: 0.5rem;
+}
+.top-section .image-cont h1{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.top-section .image-cont h1 span {
+    font-size: 40px;
+    color: #FFD200;
+    font-weight: bold;
+}
+.image-cont{
+    /* border:1px solid red; */
+    border-radius: 10px;
+    /* padding:1rem; */
+    
+    padding: 2rem;
+}
+.image-cont>img{
+    /* width:100%; */
+    transform: scale(0.3);
+}
+.bottom-section{
+    /* border:1px solid green; */
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.my-card{
+    width: 280px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.80rem;
+    transition: 0.3s all;
+}
+.my-card:hover{
+    transform: scale(1.05);
+}
+.popular-food-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.popular-restaruants {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+}
+.card-img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5em;
+    justify-content: space-around;
+    padding: 0 .2em;
+    text-align: center;
+    width: 5em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+      color: #ccc;  
+   
+    cursor: pointer;
+}
+
+ .star-rating :checked~label {
+    color: #f90;
+} 
+
+ .star-rating label:hover,
+.star-rating label:hover~label {
+    color: #fc0;
+}
+.section-head{
+    font-size: 2rem;
+}
+button{
+    border-radius: 10px;
+    padding:0.25rem;
+    margin:0.10rem;
+    background-color: #fc0;
+}
+input-container {
+    position: relative;
+}
+
+.input-container input::placeholder {
+    text-align: center;
+    color: #555;
+    /* Placeholder text color */
+}

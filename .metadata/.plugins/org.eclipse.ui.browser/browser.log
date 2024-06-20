@@ -1,0 +1,92 @@
+
+Nov 04, 2023 09:05:07.786 NEW SESSION
+Nov 04, 2023 09:05:07.786 [23104:23232:1104/090507.783:ERROR:device_event_log_impl.cc(225)] [09:05:07.782] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 04, 2023 09:05:08.406 [23104:22148:1104/090508.405:ERROR:registration_request.cc(259)] Registration URL fetching failed.
+Nov 04, 2023 09:05:29.440 [23104:22148:1104/090529.439:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2023 09:05:37.795 [23104:22148:1104/090537.795:ERROR:registration_request.cc(259)] Registration URL fetching failed.
+Nov 04, 2023 09:05:50.911 [23104:22148:1104/090550.911:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 09:06:18.660 [23104:22148:1104/090618.659:ERROR:registration_request.cc(259)] Registration URL fetching failed.
+Nov 04, 2023 09:07:09.313 [23104:22148:1104/090709.311:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2023 09:07:44.714 [23104:22148:1104/090744.713:ERROR:registration_request.cc(259)] Registration URL fetching failed.
+Nov 04, 2023 09:08:54.333 [23104:22148:1104/090854.333:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 09:25:10.812 [23104:23232:1104/092510.810:ERROR:device_event_log_impl.cc(225)] [09:25:10.810] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 04, 2023 09:25:11.58 [23104:23232:1104/092511.057:ERROR:device_event_log_impl.cc(225)] [09:25:11.054] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 04, 2023 09:25:11.74 [23104:23232:1104/092511.073:ERROR:device_event_log_impl.cc(225)] [09:25:11.069] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 04, 2023 09:26:19.222 [23104:23232:1104/092619.221:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+Nov 04, 2023 09:47:24.248 NEW SESSION
+Nov 04, 2023 09:47:24.248 [13800:1584:1104/094724.246:ERROR:device_event_log_impl.cc(225)] [09:47:24.245] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 04, 2023 10:15:39.576 [13800:1584:1104/101539.573:ERROR:device_event_log_impl.cc(225)] [10:15:39.573] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 04, 2023 10:15:39.580 [13800:1584:1104/101539.579:ERROR:device_event_log_impl.cc(225)] [10:15:39.580] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 04, 2023 10:19:16.257 [13800:18420:1104/101916.256:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 10:19:47.273 [13800:18420:1104/101947.272:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+Nov 04, 2023 16:01:07.492 NEW SESSION
+Nov 04, 2023 16:01:07.492 [5460:18436:1104/160107.489:ERROR:device_event_log_impl.cc(225)] [16:01:07.489] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+
+Nov 04, 2023 21:24:42.625 NEW SESSION
+Nov 04, 2023 21:24:42.625 [8300:21452:1104/212442.623:ERROR:device_event_log_impl.cc(225)] [21:24:42.622] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 04, 2023 21:34:44.282 [8300:21452:1104/213444.281:ERROR:device_event_log_impl.cc(225)] [21:34:44.281] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 04, 2023 21:34:44.300 [8300:21452:1104/213444.299:ERROR:device_event_log_impl.cc(225)] [21:34:44.299] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 04, 2023 21:37:19.536 [8300:21452:1104/213719.533:ERROR:device_event_log_impl.cc(225)] [21:37:19.531] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 04, 2023 21:37:19.542 [8300:21452:1104/213719.542:ERROR:device_event_log_impl.cc(225)] [21:37:19.541] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+
+Nov 05, 2023 05:37:16.686 NEW SESSION
+Nov 05, 2023 05:37:16.686 [6576:13376:1105/053716.684:ERROR:device_event_log_impl.cc(225)] [05:37:16.684] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 05, 2023 06:01:51.291 [6576:10648:1105/060151.283:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 05, 2023 06:38:39.864 [6576:10648:1105/063839.862:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 06:38:42.459 [6576:10648:1105/063842.459:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 05, 2023 06:39:50.665 [6576:10648:1105/063950.664:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 05, 2023 06:41:35.333 [6576:10648:1105/064135.332:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 05, 2023 06:46:47.385 [6576:10648:1105/064647.385:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 06:50:01.885 [6576:10648:1105/065001.884:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Nov 05, 2023 09:24:50.515 NEW SESSION
+Nov 05, 2023 09:24:50.515 [10384:12660:1105/092450.513:ERROR:device_event_log_impl.cc(225)] [09:24:50.514] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 05, 2023 09:28:19.435 [10384:9920:1105/092819.435:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 09:28:20.957 [10384:9920:1105/092820.957:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 09:29:09.791 [10384:9920:1105/092909.791:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 05, 2023 09:45:56.248 [10384:9920:1105/094556.247:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 05, 2023 09:48:24.270 [10384:9920:1105/094824.269:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 10:03:17.896 [10384:12660:1105/100317.896:ERROR:device_event_log_impl.cc(225)] [10:03:17.896] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 10:03:32.933 [10384:12660:1105/100332.932:ERROR:device_event_log_impl.cc(225)] [10:03:32.932] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 10:03:32.940 [10384:12660:1105/100332.939:ERROR:device_event_log_impl.cc(225)] [10:03:32.939] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 05, 2023 10:03:42.168 [10384:12660:1105/100342.168:ERROR:device_event_log_impl.cc(225)] [10:03:42.167] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 10:03:42.178 [10384:12660:1105/100342.178:ERROR:device_event_log_impl.cc(225)] [10:03:42.176] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 05, 2023 10:03:48.979 [10384:12660:1105/100348.979:ERROR:device_event_log_impl.cc(225)] [10:03:48.977] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 10:03:48.990 [10384:12660:1105/100348.990:ERROR:device_event_log_impl.cc(225)] [10:03:48.988] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 05, 2023 10:12:20.278 [10384:12660:1105/101220.278:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+Nov 05, 2023 10:28:39.869 [10384:12660:1105/102839.869:ERROR:gpu_process_host.cc(990)] GPU process exited unexpectedly: exit_code=34
+Nov 05, 2023 10:30:54.728 [10384:12660:1105/103054.728:ERROR:gpu_process_host.cc(990)] GPU process exited unexpectedly: exit_code=34
+Nov 05, 2023 11:10:46.641 [10384:9920:1105/111046.641:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:10:48.416 [10384:9920:1105/111048.415:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:10:50.778 [10384:12660:1105/111050.778:ERROR:device_event_log_impl.cc(225)] [11:10:50.770] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 11:11:13.837 [10384:9920:1105/111113.837:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:11:23.972 [10384:9920:1105/111123.972:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:11:28.346 [10384:9920:1105/111128.346:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:11:49.200 [10384:9920:1105/111149.200:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:11:50.727 [10384:9920:1105/111150.726:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:12:08.718 [10384:9920:1105/111208.702:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:12:12.830 [10384:9920:1105/111212.830:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:12:23.417 [10384:9920:1105/111223.417:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:13:27.412 [10384:9920:1105/111327.412:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:14:01.496 [10384:9920:1105/111401.496:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:14:29.44 [10384:9920:1105/111429.044:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 05, 2023 11:14:50.342 [10384:9920:1105/111450.342:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:15:13.139 [10384:9920:1105/111513.137:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:16:23.857 [10384:9920:1105/111623.857:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:16:30.419 [10384:9920:1105/111630.419:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:16:47.950 [10384:9920:1105/111647.950:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:17:27.296 [10384:9920:1105/111727.296:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 05, 2023 11:17:58.711 [10384:9920:1105/111758.711:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:21:53.852 [10384:12660:1105/112153.850:ERROR:device_event_log_impl.cc(225)] [11:21:53.840] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 11:22:09.606 [10384:12660:1105/112209.606:ERROR:device_event_log_impl.cc(225)] [11:22:09.581] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 11:26:31.672 [10384:12660:1105/112631.665:ERROR:device_event_log_impl.cc(225)] [11:26:31.666] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 11:26:35.20 [10384:9920:1105/112635.020:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 05, 2023 11:26:49.998 [10384:9920:1105/112649.998:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:27:27.66 [10384:9920:1105/112727.066:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:27:28.354 [10384:12660:1105/112728.354:ERROR:device_event_log_impl.cc(225)] [11:27:28.353] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 05, 2023 11:34:05.362 [10384:9920:1105/113405.362:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2023 11:34:14.227 [10384:9920:1105/113414.227:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:34:18.334 [10384:9920:1105/113418.334:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 05, 2023 11:34:35.114 [10384:9920:1105/113435.114:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerFooter {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    border: 1px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftFooter {
+    width: 16%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.leftFooter label {
+    font-size: xx-large;
+    letter-spacing: 3px;
+    font-family: 'Tektur';
+}
+
+
+
+.leftFooter .footerlogos .flogo {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.middleFooter {
+    width: 65%;
+    padding-top: 10px;
+    color: white;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.middleFooter1 {
+    width: 40%;
+    height: 100%;
+}
+
+.middleFooter1 .fitems {
+    display: flex;
+    flex-direction: column;
+}
+
+.middleFooter1 span {
+    font-size: large;
+}
+
+.middleFooter1 .fitems {
+    margin-top: 20px;
+}
+
+.middleFooter1 .fitems label {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.rightFooter {
+    width: 25%;
+    padding-top: 17px;
+    color: white;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.rightFooter .rightF1 {
+    display: flex;
+}
+
+.rightFooter .rightF1 label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.rightFooter .rightF2 input {
+    height: 25px;
+    padding: 0px 20px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+
+.rightFooter .rightF3 input {
+    width: 45%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
